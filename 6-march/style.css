@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  width: 100vw;
+  height: 70px;
+  background-color: black;
+  color: antiquewhite;
+  padding-top: 5px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1px;
+  background-color: black;
+  gap: 20px;
+  width: 100vw;
+  height: 40px;
+  align-items: center;
+}
+.home {
+  text-align: center;
+  padding: 2px;
+  background-color: aliceblue;
+  width: 250px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.about {
+  text-align: center;
+  padding: 2px;
+  background-color: aliceblue;
+  width: 250px;
+  cursor: pointer;
+}
+.blog {
+  text-align: center;
+  padding: 2px;
+  background-color: aliceblue;
+  width: 250px;
+  cursor: pointer;
+}
+.careers {
+  text-align: center;
+  padding: 2px;
+  background-color: aliceblue;
+  width: 250px;
+  cursor: pointer;
+}
+.contact {
+  text-align: center;
+  padding: 2px;
+  background-color: aliceblue;
+  width: 250px;
+  cursor: pointer;
+}
+.main {
+  width: 100vw;
+  height: 60vh;
+}
+.artical {
+  float: left;
+  width: 62vw;
+  height: 60vh;
+  background-color: gray;
+}
+.heading {
+  float: right;
+  width: 28vw;
+  margin-left: 20px;
+}
+.line {
+  width: 100vw;
+  height: 10px;
+  background-color: black;
+}
+.copy {
+  background-color: gray;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
